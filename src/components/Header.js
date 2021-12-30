@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Nav from './Nav'
 import HeaderContent from './HeaderContent'
 import Box from './animations/Box'
+import headbg from "../img/header.jpg"
 
 
 function Header() {
@@ -95,7 +96,7 @@ const HeaderStyle = styled.header`
             height: 100vh;
             padding: 1rem 5rem;
             position: relative;
-            background: url("https://clarkwritesblog.files.wordpress.com/2017/04/color-gradient-background-wallpaper-2.jpg");
+            background: url(${headbg});
         }
     }
     
