@@ -8,9 +8,9 @@ function Nav() {
         <Navbar>
             <FaDraftingCompass className="logo" />
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><span>Home</span></li>
+                <li><span>Features</span></li>
+                <li><span>Pricing</span></li>
             </ul>
             <PryButton name={"Sign up"} />
 
@@ -35,8 +35,9 @@ const Navbar = styled.div`
 
         li{
             font-size: 1rem;
-            a{
+            span{
                 color: inherit;
+                cursor: pointer;
             }
         }
     }

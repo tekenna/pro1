@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import bg from "../../img/bg.jpg"
 
 function Box() {
     return (

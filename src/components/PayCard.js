@@ -1,11 +1,10 @@
-import React, {useState} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import AnimatedBtn from './buttons/AnimatedBtn'
 import card from "../img/card.jpg"
 import {AiOutlineCheck} from "react-icons/ai"
 
 function PayCard({ plan, amount }) {
-    const [list, setList] = useState(false)
     return (
         <Pay>
             <p className='top'>{plan}</p>
