@@ -44,6 +44,7 @@ const FooterStyle = styled.footer`
     .col{
         display: flex;
         flex-direction: column;
+        margin-bottom: 1rem;
         .logo{
             color: orange;
             font-size: 2.5rem;
@@ -71,6 +72,19 @@ const FooterStyle = styled.footer`
 
         .col2{
             text-align: right;
+        }
+        .col_{
+            text-align: left;
+        }
+    }
+    @media screen and (max-width: 365px){
+        width: 100%;
+        padding: 2rem;
+        col{
+            padding-bottom: 2rem;
+        }
+        .col2{
+            text-align: left;
         }
         .col_{
             text-align: left;
